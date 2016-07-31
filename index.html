@@ -6,81 +6,79 @@
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>
-		<header>
-			<div class="big">
-				<div class="col-md-12" id="fecha"></div>
-				<div class="col-md-12 reloj">
-					<div id="hora"></div>
-					<div class="separacion"> : </div>
-					<div id="minutos"></div>
-					<div class="separacion"> : </div>
-					<div id="segundos"></div>
+	<body class="bg-img">
+		<div class="container-fluid bg-dark">
+			<header>
+				<div class="big">
+					<div class="col-md-12 col-xs-12 col-sm-12" id="fecha"></div>
+					<div class="col-md-12 col-xs-12 col-sm-12 reloj">
+						<div id="hora"></div>
+						<div class="separacion"> : </div>
+						<div id="minutos"></div>
+						<div class="separacion"> : </div>
+						<div id="segundos"></div>
+					</div>
 				</div>
-			</div>
-		</header>
-		<section>
-			<div class="opciones center col-md-4">
-				<button id="paises"> Paises 
-					<ul class="opcion">
-						<li>
-							<label>
-								<input type="radio" id="chicago" name="pais" value="">Chicago 
-							</label>
-						</li>
-						<li><label>
-								<input type="radio" id="sao-paulo" name="pais" value="">Sao Paulo
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="santiago" name="pais" value="">Santiago 
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="mexico" name="pais" value="">Mexico D.F 
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="caracas" name="pais" value="">Caracas
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="Brasilia" name="pais" value="">Brasilia 
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="Quito" name="pais" value="">Quito
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="guayaquil" name="pais" value="">Guayaquil
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="santa-marta" name="pais" value="">Santa Marta 
-							</label>
-						</li>
-						<li>
-							<label>
-								<input type="radio" id="bogota" name="pais" value="">Bogota
-							</label>
-						</li>
-					</ul>
-				</button>
-			</div>
-		</section>
-
-
-
-
-		<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
+			</header>
+			<section>
+				<div class="text-center opciones center col-md-12 col-xs-12 col-sm-12">
+					<button id="paises"> Paises 
+						<ul class="opcion">
+							<li>
+								<label>
+									<input type="radio" id="chicago" name="pais" value="-1">Chicago 
+								</label>
+							</li>
+							<li><label>
+									<input type="radio" id="sao-paulo" name="pais" value="1">Sao Paulo
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="santiago" name="pais" value="0">Santiago 
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="mexico" name="pais" value="-1">Mexico D.F 
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="caracas" name="pais" value="0">Caracas
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="Brasilia" name="pais" value="1">Brasilia 
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="Quito" name="pais" value="-1">Quito
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="guayaquil" name="pais" value="-1">Guayaquil
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="santa-marta" name="pais" value="-2">Santa Marta 
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" id="bogota" name="pais" value="-1">Bogota
+								</label>
+							</li>
+						</ul>
+					</button>
+				</div>
+			</section>
+			<script src="https://code.jquery.com/jquery-2.2.2.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		</div>
 	</body>
 </html>

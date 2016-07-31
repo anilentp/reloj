@@ -1,20 +1,41 @@
+.bg-dark{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 659px;
+	max-height: 100%;
+}
+.bg-img{
+	background-image: url(../img/Imágenes-de-paisajes-hermosos.jpg);
+	width: 100%;
+}
 li{
 	list-style: none;
 	overflow: hidden;
 }
+#paises{
+	padding: 5px 30px;
+	background-color: rgba(176, 137, 38, 0.5);
+	color: whitesmoke;
+	border-radius: 10px;
+	font-weight: bolder;
+	margin: 5% auto;
 
+}
 .reloj{
-	margin: 0 auto;
+	margin: 3% auto;
 	text-align: center;
+}
+.opcion{
+	display: none;
 }
 #fecha{
 	max-width:100%;	
 	max-height: 100%;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #BA7AD2;
+	color: #B08926;
 	display: inline;
-	margin: 0 auto;
+	margin: 5% auto;
 	text-align: center;
 }
 #hora{
@@ -22,7 +43,7 @@ li{
 	max-height: 200px;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #BA7AD2;
+	color: #B08926;
 	display: inline;
 }
 #minutos{
@@ -30,7 +51,7 @@ li{
 	max-height: 200px;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #BA7AD2;
+	color: #B08926;
 	display: inline;
 }
 #segundos{
@@ -38,7 +59,7 @@ li{
 	max-height: 200px;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #BA7AD2;
+	color: #B08926;
 	display: inline;
 }
 .separacion{
@@ -46,6 +67,6 @@ li{
 	max-height: 200px;
 	font-size: 30px;
 	font-weight: bolder;
-	color: #BA7AD2;
+	color: #B08926;
 	display: inline;
 }
