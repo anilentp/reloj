@@ -1,12 +1,16 @@
 .bg-dark{
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 100%;
-	height: 659px;
+	
 	max-height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .bg-img{
 	background-image: url(../img/Imágenes-de-paisajes-hermosos.jpg);
 	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 li{
 	list-style: none;
